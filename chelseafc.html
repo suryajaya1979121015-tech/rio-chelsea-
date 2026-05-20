@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chelsea FC</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f4f4;
+      color:#222;
+      line-height:1.6;
+    }
+
+    header{
+      background:#034694;
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+
+    header h1{
+      font-size:40px;
+    }
+
+    nav{
+      background:#012a5e;
+      padding:12px;
+      text-align:center;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+    }
+
+    nav a:hover{
+      color:gold;
+    }
+
+    .hero{
+      height:400px;
+      background:url('https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg') no-repeat center;
+      background-size:250px;
+      background-color:#0b3d91;
+      display:flex;
+      justify-content:center;
+      align-items:end;
+      color:white;
+      padding-bottom:30px;
+      text-align:center;
+    }
+
+    .hero h2{
+      font-size:36px;
+      background:rgba(0,0,0,0.5);
+      padding:10px 20px;
+      border-radius:10px;
+    }
+
+    section{
+      padding:50px 10%;
+      background:white;
+      margin:20px;
+      border-radius:15px;
+      box-shadow:0 0 10px rgba(0,0,0,0.1);
+    }
+
+    section h2{
+      color:#034694;
+      margin-bottom:20px;
+      font-size:32px;
+    }
+
+    .card-container{
+      display:flex;
+      flex-wrap:wrap;
+      gap:20px;
+    }
+
+    .card{
+      flex:1 1 250px;
+      background:#f0f0f0;
+      padding:20px;
+      border-radius:12px;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+      background:#e1ecff;
+    }
+
+    footer{
+      background:#012a5e;
+      color:white;
+      text-align:center;
+      padding:20px;
+      margin-top:20px;
+    }
+
+    ul{
+      margin-left:20px;
+    }
+
+    img{
+      width:100%;
+      border-radius:12px;
+      margin-top:15px;
+    }
+
+    @media(max-width:768px){
+      .hero h2{
+        font-size:24px;
+      }
+
+      header h1{
+        font-size:30px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>CHELSEA FOOTBALL CLUB</h1>
+    <p>The Pride of London</p>
+  </header>
+
+  <nav>
+    <a href="#sejarah">Sejarah</a>
+    <a href="#stadion">Stadion</a>
+    <a href="#prestasi">Prestasi</a>
+    <a href="#legenda">Legenda</a>
+    <a href="#skuad">Skuad</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Welcome To Chelsea FC Website</h2>
+  </div>
+
+  <section id="sejarah">
+    <h2>Sejarah Chelsea FC</h2>
+    <p>
+      Chelsea Football Club adalah klub sepak bola asal London, Inggris,
+      yang didirikan pada tahun 1905. Klub ini bermarkas di Stamford Bridge.
+      Chelsea dikenal sebagai salah satu klub terbesar di Inggris dan Eropa.
+    </p>
+
+    <p>
+      Chelsea mulai berkembang pesat sejak era Roman Abramovich pada tahun 2003.
+      Klub ini berhasil memenangkan banyak gelar domestik maupun internasional.
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?q=80&w=1200&auto=format&fit=crop" alt="Chelsea FC">
+  </section>
+
+  <section id="stadion">
+    <h2>Stamford Bridge</h2>
+
+    <p>
+      Stamford Bridge adalah stadion kandang Chelsea FC yang berada di London.
+      Stadion ini memiliki kapasitas sekitar 40.000 penonton dan menjadi rumah
+      Chelsea sejak klub didirikan.
+    </p>
+
+    <div class="card-container">
+      <div class="card">
+        <h3>Lokasi</h3>
+        <p>Fulham Road, London, Inggris</p>
+      </div>
+
+      <div class="card">
+        <h3>Kapasitas</h3>
+        <p>40.000+ Penonton</p>
+      </div>
+
+      <div class="card">
+        <h3>Dibuka</h3>
+        <p>Tahun 1877</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="prestasi">
+    <h2>Prestasi Chelsea FC</h2>
+
+    <ul>
+      <li>6x Juara Premier League</li>
+      <li>8x Juara FA Cup</li>
+      <li>5x Juara EFL Cup</li>
+      <li>2x Juara UEFA Champions League</li>
+      <li>2x Juara UEFA Europa League</li>
+      <li>1x Juara FIFA Club World Cup</li>
+    </ul>
+  </section>
+
+  <section id="legenda">
+    <h2>Pemain Legenda Chelsea</h2>
+
+    <div class="card-container">
+
+      <div class="card">
+        <h3>Frank Lampard</h3>
+        <p>
+          Top skor sepanjang masa Chelsea dan salah satu gelandang terbaik dunia.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Didier Drogba</h3>
+        <p>
+          Striker legendaris yang membawa Chelsea juara Liga Champions 2012.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>John Terry</h3>
+        <p>
+          Kapten legendaris dan simbol pertahanan kuat Chelsea.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Petr Cech</h3>
+        <p>
+          Kiper terbaik Chelsea dengan banyak clean sheet.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="skuad">
+    <h2>Skuad Chelsea Saat Ini</h2>
+
+    <div class="card-container">
+
+      <div class="card">
+        <h3>Cole Palmer</h3>
+        <p>Posisi: Gelandang Serang</p>
+      </div>
+
+      <div class="card">
+        <h3>Enzo Fernandez</h3>
+        <p>Posisi: Gelandang</p>
+      </div>
+
+      <div class="card">
+        <h3>Reece James</h3>
+        <p>Posisi: Bek</p>
+      </div>
+
+      <div class="card">
+        <h3>Nicolas Jackson</h3>
+        <p>Posisi: Striker</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Chelsea FC Fan Website | Dibuat Oleh Fans Chelsea</p>
+  </footer>
+
+</body>
+</html>
